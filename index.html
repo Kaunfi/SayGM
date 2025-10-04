@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base - Say GM</title>
+    <script src="https://unpkg.com/ethers@6.6.1/dist/ethers.umd.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="menuToggle">☰</button>
+
+    <div id="menu" class="menu">
+        <ul>
+            <li><a href="/soneium">Soneium</a></li>
+            <li><a href="/optimism">Optimism</a></li>
+            <li><a href="/ink">INK</a></li>
+            <li><a href="/unichain">Unichain</a></li>
+            <li><a href="/megaeth">Mega ETH</a></li>
+        </ul>
+    </div>
+    <div id="gmCountContainer">
+    Your GM: <span id="gmCount">0</span><br>
+    GM received: <span id="gmReceived">0</span>
+    </div>
+    <button id="connectButton">Connect Wallet</button>
+    <div class="gm-to-container">
+        <input type="text" id="gmToAddress" placeholder="Enter address (optional)">
+    </div>
+    <div class="content">
+        <button class="gm-button" id="gmButton" onclick="sendGM()">GM</button>
+    </div>
+    <div id="message"></div>
+    <div class="base-logo-container">
+        <img src="img/Base_Wordmark_Blue.svg" alt="Base Logo" class="base-logo">
+    </div>
+</body>
+</html>
