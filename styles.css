@@ -1,4 +1,4 @@
-/* Global Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -37,7 +37,7 @@ body {
     background: #f0f0f0;
 }
 
-/* GM Button */
+
 .gm-button {
     width: 150px;
     height: 150px;
@@ -113,10 +113,10 @@ body {
     opacity: 0.2; 
 }
 
-/* Styles du menu latéral */
+
 .menu {
     position: fixed;
-    left: -250px; /* Caché par défaut */
+    left: -250px; 
     top: 0;
     height: 100%;
     backdrop-filter: blur(10px);
@@ -124,12 +124,12 @@ body {
     padding: 10px;
 }
 
-/* Affichage du menu quand il est ouvert */
+
 .menu.open {
     left: 0;
 }
 
-/* Styles des éléments du menu */
+
 .menu ul {
     list-style: none;
     padding-top: 50px;
@@ -164,10 +164,10 @@ body {
 }
 
 .menu ul li a:hover {
-    color: #facc15; /* Jaune doré pour un effet dynamique */
+    color: #facc15; 
 }
 
-/* Style du bouton d'ouverture/fermeture */
+
 #menuToggle {
     position: fixed;
     left: 10px;
